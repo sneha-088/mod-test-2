@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>mod2project</title>
+</head>
+
+<body>
+    <!-- <div class="image-Gallery">
+        <div class ="img1">
+            <img src="./image/img1.jpeg">
+            <p> hey Click On Me</p>
+        </div>
+        <div class ="img2">
+            <img src="./image/img4.jpeg">
+            <p> hey Click On Me</p>
+        </div>
+        <div class ="img3">
+            <img src="./image/dice.webp">
+            <p> hey Click On Me</p>
+        </div>
+        <div class ="img4">
+            <img src="./image/pexels-photo-15350516.jpeg">
+            <p> hey Click On Me</p>
+        </div>
+    </div>
+    <p class="error"></p>
+    <div class="container signup hide">
+        <h1>User Login</h1>
+        <form>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <br><br>
+            <label for="UserName">User Name</label><br>
+            <input type="text" id="UserName" name="UserName" placeholder="Enter your User Name">
+            <br><br>
+            <label for="name">Email</label><br>
+            <input type="email" id="Email" name="Email" placeholder="enter your Email">
+            <br>
+            <input id="submit" type="submit">
+        </form>
+    </div>
+    <! Display Form info -->
+    <!-- <div class="displayformInfo hide" id="displayInfo">
+        <h2>Your information is</h2><br>
+        <span id="info"></span><br><br>
+        <p>Click on next Image to proceed further</p>
+    </div>
+    <div class="container dicegame hide" id="diceWthScore">
+        <p>Attempts left : <span id="attemptsLeft">0</span></p><br>
+        <div>
+        <img class="img" src="./image/dice1.webp" id=" dice-Image"
+            alt="diceImage"></button><br><br>
+            <p>Remaining Dice Clicks: <span id="diceClicks">3</span></p>
+            <p>Your total score is: <span id="score">0</span></p>
+        </div>
+    </div> -->
+    <!-- Display Form info -->
+    <!-- <div class="displayformInfo hide" id="displayInfo">
+        <h2>Your information is</h2><br>
+        <span id="info"></span><br><br>
+        <p>Click on next Image to proceed further</p>
+    </div>
+ 
+    < dice image with score and attempts -->
+    <!-- <div class="diceWthScore hide" id="diceWthScore">
+        <p>Attempts left : <span id="attemptsLeft">0</span></p><br>
+        <div>
+            <button id="dice-Image" onclick="diceClick()"><img class="img" src="img\dice-Image.jpg"
+                    alt="diceImage"></button><br><br>
+            <p>Remaining Dice Clicks: <span id="diceClicks">3</span></p>
+            <p>Your total score is: <span id="score">0</span></p>
+        </div>
+    </div>
+    /<! Congratulations and try again Image -->
+    <!-- <div>
+        <img class="hide" id="congratsImage" src="./image/congratulation.gif" alt="congratsImage">
+    </div>
+    <div>
+        <img class="hide" id="tryAgainImage" src="./image/try again.jpg" alt="tryAgainImage">
+    </div> --> 
+    <!-- Images with Flex Box -->
+    <div class="container flex-container">
+        <div>
+            <button id="img-1" onclick="openFormFunction()"><img class="img" src="./image/img1.jpeg" alt="img1"></button>
+        </div>
+ 
+        <div>
+            <button id="img-2" onclick="displayFormInfoFunction()"><img class="img" src="./image/pexels-photo-15350516.jpeg"
+                    alt="img2"></button>
+        </div>
+ 
+        <div>
+            <button id="img-3" onclick="displayDiceWthScore()"><img class="img" src="./image/dice.webp" alt="img3"></button>
+        </div>
+ 
+        <div>
+            <button id="img-4" onclick="generateCouponCodeFunction()"><img class="img" src="./image/img4.jpeg"
+                    alt="img4"></button>
+        </div>
+    </div>
+ 
+    <!-- Form Group -->
+    <div class="form-Group hidden" id="form">
+        <label for="name">Name: </label>
+        <input type="text" id="name" required>
+ 
+        <label for="userName">User Name: </label>
+        <input type="text" id="userName" required>
+ 
+        <label for="email">Email: </label>
+        <input type="email" id="email" required><br><br>
+ 
+        <button id="sumbitBtn" type="submit" onclick="submitFormInfoFunction()">Submit</button>
+    </div>
+ 
+    <!-- Display Form info -->
+    <div class="displayformInfo hidden" id="displayInfo">
+        <h2>Your information is</h2><br>
+        <span id="info"></span><br><br>
+        <p>Click on next Image to proceed further</p>
+    </div>
+ 
+    <!-- dice image with score and attempts -->
+    <div class="diceWthScore hidden" id="diceWthScore">
+        <p>Attempts left : <span id="attemptsLeft">0</span></p><br>
+        <div>
+            <button id="dice-Image" onclick="diceClick()"><img class="img" src="./image/dice1.webp"
+                    alt="diceImage"></button><br><br>
+            <p>Remaining Dice Clicks: <span id="diceClicks">3</span></p>
+            <p>Your total score is: <span id="score">0</span></p>
+        </div>
+    </div>
+ 
+    <!-- Congratulations and try again Image -->
+    <div>
+        <img class="hidden" id="congratsImage" src="./image/congratulation.gif" alt="congratsImage">
+    </div>
+    <div>
+        <img class="hidden" id="tryAgainImage" src="./image/try again.jpg" alt="tryAgainImage">
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
